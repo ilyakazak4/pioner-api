@@ -81,7 +81,7 @@ app.post('/order', async (req, res) => {
     )
 
     const qiwi = getQiwi({
-      successUrl: 'https://novoservice.netlify.app/success',
+      successUrl: 'https://pkppioner.netlify.app/success.html',
       totalPrice,
       clientEmail: email,
       account,

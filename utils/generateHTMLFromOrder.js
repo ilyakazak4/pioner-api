@@ -1,8 +1,8 @@
 function generateHTMLFromOrder({ email, order, totalPrice }, account, id) {
   return `<h2>Уникальный номер заказа ${account}</h2>
 		<h3>Код оплаты: ${id}</h2><br/>
-		<em>Почта: </em>${email}<br>
-		<table>
+		<p>Почта: </p>${email}<br>
+		<table border="1">
 			<thead>
 			<tr>
 				<th>Товар</th>

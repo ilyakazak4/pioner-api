@@ -2,7 +2,7 @@ const sendOAuthMail = require('./sendOAuthMail')
 
 async function sendMail(email, recipient, subject, html, attachments = []) {
   const options = {
-    from: `Фотоновик <${email}>`,
+    from: `ПКП Пионер <${email}>`,
     to: recipient,
     subject,
     html,
